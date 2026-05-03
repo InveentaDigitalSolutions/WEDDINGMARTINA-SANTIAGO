@@ -75,7 +75,7 @@ h1, h2, h3 { margin: 0; font-weight: 500; }
   font-size: clamp(2.8rem, 6vw, 4.4rem);
   text-align: center;
   margin: 0;
-  line-height: 0.95;
+  line-height: 1.1;
   color: var(--ink);
 }
 
@@ -174,14 +174,26 @@ section.tinted { background: var(--paper-warm); }
   padding: 0.3rem 0;
   position: relative;
   white-space: nowrap;
+  transition: color 0.25s ease;
 }
-.nav-links a:hover { color: var(--ink); }
-.nav-links a.active { color: var(--terracotta); }
-.nav-links a.active::after {
+.nav-links a::after {
   content: "";
   position: absolute;
-  left: 0; right: 0; bottom: -3px;
+  left: 50%;
+  right: 50%;
+  bottom: -3px;
   height: 1px;
+  background: var(--ink);
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              right 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              background 0.25s ease;
+}
+.nav-links a:hover { color: var(--ink); }
+.nav-links a:hover::after { left: 0; right: 0; }
+.nav-links a.active { color: var(--terracotta); }
+.nav-links a.active::after {
+  left: 0;
+  right: 0;
   background: var(--terracotta);
 }
 
@@ -282,6 +294,19 @@ section.tinted { background: var(--paper-warm); }
   width: 100%;
   max-width: 100%;
   text-align: center;
+  animation: hero-in 1.1s cubic-bezier(0.22, 0.61, 0.36, 1) backwards;
+}
+.hero-inner > *:nth-child(1) { animation-delay: 0.1s; }
+.hero-inner > *:nth-child(2) { animation-delay: 0.35s; }
+.hero-inner > *:nth-child(3) { animation-delay: 0.65s; }
+.hero-inner > *:nth-child(4) { animation-delay: 0.85s; }
+.hero-inner > *:nth-child(5) { animation-delay: 1.05s; }
+@keyframes hero-in {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-inner > * { animation: none; }
 }
 /* Compensate for trailing letter-spacing on tracked uppercase text */
 .hero .pretitle { text-indent: 0.6em; }
@@ -456,6 +481,17 @@ section.tinted .card { background: rgba(255,255,255,0.55); }
 }
 .transit-steps strong { color: var(--ink); font-weight: 600; }
 
+.transit-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem 2rem;
+  margin: 0 auto 2rem;
+  padding: 0 var(--pad);
+}
+.transit-links .link-icon { font-size: 0.95rem; }
+
 /* === Schedule === */
 .timeline {
   list-style: none;
@@ -608,7 +644,7 @@ section.tinted .card { background: rgba(255,255,255,0.55); }
 .band-caption .script {
   font-family: var(--font-script);
   font-size: clamp(3rem, 7vw, 5rem);
-  line-height: 1;
+  line-height: 1.1;
   color: var(--paper);
   text-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
@@ -656,10 +692,10 @@ section.tinted .card { background: rgba(255,255,255,0.55); }
 }
 .place-card h3 {
   font-family: var(--font-script);
-  font-size: clamp(2.8rem, 5vw, 3.6rem);
+  font-size: clamp(2.6rem, 4.5vw, 3.4rem);
   font-weight: 400;
-  line-height: 1;
-  margin: 0 0 0.6rem;
+  line-height: 1.25;
+  margin: 0 0 0.4rem;
 }
 .place-card .place-eyebrow {
   text-transform: uppercase;
@@ -683,9 +719,15 @@ section.tinted .card { background: rgba(255,255,255,0.55); }
   background: var(--paper);
   color: var(--ink);
   text-align: center;
-  transition: opacity 0.7s ease;
+  transition: opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .splash.fade { opacity: 0; pointer-events: none; }
+.splash.fade .splash-inner {
+  animation: splash-out 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+.splash.fade .splash-rule {
+  animation: splash-rule-out 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
 
 .splash-inner {
   display: flex;
@@ -723,15 +765,24 @@ section.tinted .card { background: rgba(255,255,255,0.55); }
 }
 
 @keyframes splash-in {
-  from { opacity: 0; transform: translateY(8px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes splash-out {
+  from { opacity: 1; transform: translateY(0) scale(1); letter-spacing: normal; }
+  to   { opacity: 0; transform: translateY(-32px) scale(1.06); }
 }
 @keyframes splash-rule {
   from { transform: scaleX(0); opacity: 0; }
   to   { transform: scaleX(1); opacity: 1; }
 }
+@keyframes splash-rule-out {
+  from { transform: scaleX(1); opacity: 1; }
+  to   { transform: scaleX(0); opacity: 0; }
+}
 @media (prefers-reduced-motion: reduce) {
   .splash-inner, .splash-rule { animation: none; }
+  .splash.fade .splash-inner, .splash.fade .splash-rule { animation: none; }
 }
 
 /* === Gate (password screen) === */

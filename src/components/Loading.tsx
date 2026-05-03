@@ -2,7 +2,7 @@ import { useEffect, useState, ReactNode } from 'react';
 
 const SESSION_KEY = 'wsm-splash-shown';
 const HOLD_MS = 1400;
-const FADE_MS = 700;
+const FADE_MS = 900;
 
 type Props = { children: ReactNode };
 

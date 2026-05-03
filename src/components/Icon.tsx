@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-export type IconName = 'plane' | 'hotel' | 'church' | 'leaf' | 'pin' | 'map';
+export type IconName = 'plane' | 'hotel' | 'church' | 'leaf' | 'pin' | 'map' | 'train';
 
 const PATHS: Record<IconName, ReactNode> = {
   // Paper plane — used for airport / travel
@@ -54,6 +54,18 @@ const PATHS: Record<IconName, ReactNode> = {
       <path d="M3 6 L 9 4 L 15 6 L 21 4 V 18 L 15 20 L 9 18 L 3 20 Z" />
       <path d="M9 4 V 18" />
       <path d="M15 6 V 20" />
+    </>
+  ),
+  // Simple train silhouette (carriage with wheels + rails)
+  train: (
+    <>
+      <rect x="5" y="4" width="14" height="13" rx="2" />
+      <line x1="5" y1="11" x2="19" y2="11" />
+      <circle cx="9" cy="14" r="0.6" fill="currentColor" />
+      <circle cx="15" cy="14" r="0.6" fill="currentColor" />
+      <line x1="8" y1="17" x2="6" y2="20" />
+      <line x1="16" y1="17" x2="18" y2="20" />
+      <line x1="3" y1="20" x2="21" y2="20" />
     </>
   ),
 };
