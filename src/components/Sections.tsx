@@ -304,6 +304,9 @@ export function Rsvp() {
             <br />
             <a href={WA_DE} target="_blank" rel="noreferrer">{PHONE_DE}</a>
           </div>
+          <p className="rsvp-allergies">
+            <RichText text={t('rsvp.allergiesNote')} />
+          </p>
           </Reveal>
         </div>
       </section>

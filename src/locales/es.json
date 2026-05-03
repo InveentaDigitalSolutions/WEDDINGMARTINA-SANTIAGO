@@ -33,8 +33,8 @@
   },
   "greeting": {
     "title": "Bienvenidos",
-    "sub": "una carta para nuestra familia y amigos",
-    "p1": "Querida familia, con muchísima alegría les compartimos toda la información para acompañarnos en uno de los días más importantes de nuestras vidas.",
+    "sub": "un mensaje para nuestra familia y amistades",
+    "p1": "Querida familia y amigos, con muchísima alegría les compartimos toda la información para acompañarnos en uno de los días más importantes de nuestras vidas.",
     "p2": "Sabemos lo que significa cruzar continentes, pedir días de vacaciones y mover el cielo y la tierra para llegar hasta Trieste. Cada uno de ustedes hace un esfuerzo enorme — y queremos que lo sepan: lo notamos, lo valoramos y nos emociona profundamente.",
     "p3": "Lo único que de verdad necesitamos ese día es tenerlos cerca. Su presencia, sus risas, las historias compartidas a la mesa: ese es el regalo más bonito que podríamos pedir.",
     "p4": "Y a nuestros padres, en especial — gracias infinitas por su apoyo incondicional, cada día y en cada paso del camino.",
@@ -96,7 +96,7 @@
       "mapLabel": "Ver ubicación en Google Maps"
     },
     "dressCode": {
-      "title": "Dress code",
+      "title": "Código de atuendo",
       "p1": "Comodidad ante todo. Vistan lo que les haga sentir **bien y a gusto** — lo más importante es que estén con nosotros.",
       "p2": "Como la ceremonia es en una catedral, les pedimos un vestuario respetuoso con la tradición — **hombros cubiertos**, por favor.",
       "p3": "Después la fiesta es en un resort frente al mar, así que vístanse para un día largo y feliz."
@@ -116,13 +116,14 @@
   "dayBefore": {
     "title": "El día anterior",
     "sub": "domingo · 18 de octubre",
-    "p1": "Por la tarde queremos ir a **comer pizza al centro de Trieste**, o también podemos **ir a la orilla del mar a beber y comer pescado y mariscos** — lo que más nos provoque ese día. La idea es hacer cosas espontáneas y ser flexibles con los horarios; la familia que se quiera sumar, ¡bienvenida!"
+    "p1": "Por la tarde queremos ir a **comer pizza al centro de Trieste**, o también podemos **ir a la orilla del mar a beber y comer pescado y mariscos** — lo que más nos provoque ese día. La idea es hacer cosas espontáneas y ser flexibles con los horarios; esperamos que todos se sumen a las actividades, ¡bienvenidos!"
   },
   "rsvp": {
     "title": "Confirmar asistencia",
     "sub": "esperamos saber de ustedes",
     "intro": "Pueden confirmarnos por WhatsApp o llamada a cualquiera de estos números:",
-    "label": "Confirmar asistencia"
+    "label": "Confirmar asistencia",
+    "allergiesNote": "Si tienen alguna **alergia o intolerancia alimentaria**, por favor avísennos al confirmar para coordinar el menú con el resort."
   },
   "footer": {
     "signoff": "Con todo nuestro cariño,",
