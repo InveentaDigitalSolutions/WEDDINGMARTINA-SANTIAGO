@@ -14,6 +14,7 @@ import {
 } from './components/Sections';
 import { Places } from './components/Places';
 import { Gate } from './components/Gate';
+import { Loading } from './components/Loading';
 
 function ScrollManager() {
   const { pathname, hash } = useLocation();
@@ -55,16 +56,18 @@ function PlacesPage() {
 
 export default function App() {
   return (
-    <Gate>
-      <BrowserRouter>
-        <ScrollManager />
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/places" element={<PlacesPage />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-    </Gate>
+    <Loading>
+      <Gate>
+        <BrowserRouter>
+          <ScrollManager />
+          <Nav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/places" element={<PlacesPage />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </Gate>
+    </Loading>
   );
 }
