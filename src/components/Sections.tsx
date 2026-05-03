@@ -8,7 +8,7 @@ import { asset } from '../lib/asset';
 
 const MAP_AIRPORT = 'https://www.google.com/maps/place/?q=place_id:ChIJgQu1xE01eUcRmUhimHEy8SM';
 const MAP_HAMPTON = 'https://www.google.com/maps/place/?q=place_id:ChIJvduAx6SxfkcRzpkITw8L1dA';
-const HAMPTON_BOOK = 'https://www.hilton.com/en/hotels/vcetnhx-hampton-venice-isola-nuova/';
+const HAMPTON_BOOK = 'https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=VCEIN';
 const MAP_TIVOLI = 'https://www.google.com/maps/place/?q=place_id:ChIJnS3k1qYNe0cRJHM9HZC-lKE';
 const TIVOLI_SITE = 'https://www.tivolihotels.com/en/tivoli-portopiccolo-sistiana';
 const MAP_CATHEDRAL = 'https://www.google.com/maps/place/?q=place_id:ChIJHz5rYnRre0cRLw1tzldSVUI';

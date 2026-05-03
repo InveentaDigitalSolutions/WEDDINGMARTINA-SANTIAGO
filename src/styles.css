@@ -42,8 +42,15 @@ a {
   border-bottom: 1px solid var(--rule);
   transition: opacity 0.2s ease, border-color 0.2s ease;
   padding-bottom: 1px;
+  /* Larger tap target without disturbing layout (touch-action helps with double-tap zoom) */
+  touch-action: manipulation;
 }
 a:hover { opacity: 0.7; border-color: var(--ink-soft); }
+@media (hover: none) {
+  /* On touch devices, give inline links inside cards a slightly larger tap area */
+  .card .meta a { display: inline-block; padding: 0.15rem 0; }
+  .rsvp-box a { display: inline-block; padding: 0.25rem 0.5rem; }
+}
 
 button {
   font-family: inherit;
