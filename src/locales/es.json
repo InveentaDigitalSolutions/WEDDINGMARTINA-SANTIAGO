@@ -5,8 +5,14 @@
     "venue": "Hospedaje",
     "travel": "Viaje",
     "thingsToDo": "Lugares",
+    "invite": "Invitación",
     "rsvp": "Confirmar",
     "menu": "Menú"
+  },
+  "invite": {
+    "title": "Nuestra invitación",
+    "sub": "la carta que recibieron",
+    "intro": "Aquí pueden volver siempre que quieran a ver la invitación original — toquen una imagen para verla en grande."
   },
   "gate": {
     "sub": "Invitación privada",
@@ -27,12 +33,12 @@
   },
   "greeting": {
     "title": "Bienvenidos",
-    "sub": "una carta para nuestra familia",
+    "sub": "una carta para nuestra familia y amigos",
     "p1": "Querida familia, con muchísima alegría les compartimos toda la información para acompañarnos en uno de los días más importantes de nuestras vidas.",
     "p2": "Sabemos lo que significa cruzar continentes, pedir días de vacaciones y mover el cielo y la tierra para llegar hasta Trieste. Cada uno de ustedes hace un esfuerzo enorme — y queremos que lo sepan: lo notamos, lo valoramos y nos emociona profundamente.",
     "p3": "Lo único que de verdad necesitamos ese día es tenerlos cerca. Su presencia, sus risas, las historias compartidas a la mesa: ese es el regalo más bonito que podríamos pedir.",
     "p4": "Y a nuestros padres, en especial — gracias infinitas por su apoyo incondicional, cada día y en cada paso del camino.",
-    "p5": "Antes que nada, mil gracias a quienes ya nos confirmaron. A los que aún no lo han hecho, por favor avísennos lo antes posible para poder organizar cada detalle con calma.",
+    "p5": "Antes que nada, mil gracias a quienes ya nos confirmaron su asistencia. A los que aún no lo han hecho, por favor avísennos lo antes posible para poder organizar cada detalle con calma.",
     "p6": "Gracias por estar — desde antes, durante y después. Los esperamos en Italia con el corazón abierto."
   },
   "travel": {
@@ -78,7 +84,7 @@
       "mapLabel": "Ubicación",
       "siteLabel": "Sitio web del hotel"
     },
-    "p2": "Recomendamos hospedarse **mínimo 2 noches** — la del 18 y la del 19 de octubre — para disfrutar sin prisa el día de la boda y el siguiente.",
+    "p2": "**Como una pequeña cortesía hacia cada uno de ustedes, nos hacemos cargo de su hospedaje para las noches del 18 (el día anterior) y del 19 de octubre (el día de la boda).** Disfruten la celebración sin prisas ni preocupaciones — es nuestra manera de agradecerles por hacer este viaje para acompañarnos.",
     "callout": "Por favor, indíquennos **cuántas habitaciones** necesitan, y **cuántas noches con qué fechas exactas**. Con esa información confirmamos las reservas con el hotel."
   },
   "bigDay": {
@@ -88,6 +94,12 @@
       "title": "Ceremonia · Catedral de San Giusto",
       "address": "Piazza della Cattedrale 2, 34121 Trieste",
       "mapLabel": "Ver ubicación en Google Maps"
+    },
+    "dressCode": {
+      "title": "Dress code",
+      "p1": "Comodidad ante todo. Vistan lo que les haga sentir **bien y a gusto** — lo más importante es que estén con nosotros.",
+      "p2": "Como la ceremonia es en una catedral, les pedimos un vestuario respetuoso con la tradición — **hombros cubiertos**, por favor.",
+      "p3": "Después la fiesta es en un resort frente al mar, así que vístanse para un día largo y feliz."
     },
     "schedule": [
       { "time": "14:30", "event": "Salida del transporte desde el hotel hacia la iglesia" },
@@ -104,7 +116,7 @@
   "dayBefore": {
     "title": "El día anterior",
     "sub": "domingo · 18 de octubre",
-    "p1": "Por la tarde queremos ir a **comer pizza al centro de Trieste**, o también podemos **ir a la orilla del mar a beber y comer pescado** — lo que más nos provoque ese día. La idea es hacer cosas espontáneas y ser flexibles con los horarios; la familia que se quiera sumar, ¡bienvenida!"
+    "p1": "Por la tarde queremos ir a **comer pizza al centro de Trieste**, o también podemos **ir a la orilla del mar a beber y comer pescado y mariscos** — lo que más nos provoque ese día. La idea es hacer cosas espontáneas y ser flexibles con los horarios; la familia que se quiera sumar, ¡bienvenida!"
   },
   "rsvp": {
     "title": "Confirmar asistencia",

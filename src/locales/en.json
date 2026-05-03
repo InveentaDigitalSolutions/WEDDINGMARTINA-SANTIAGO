@@ -5,8 +5,14 @@
     "venue": "Stay",
     "travel": "Travel",
     "thingsToDo": "Places",
+    "invite": "Invite",
     "rsvp": "RSVP",
     "menu": "Menu"
+  },
+  "invite": {
+    "title": "Our invitation",
+    "sub": "the card you received",
+    "intro": "Come back here anytime to see the original invitation — tap an image to view it full-size."
   },
   "gate": {
     "sub": "Private invitation",
@@ -27,12 +33,12 @@
   },
   "greeting": {
     "title": "Welcome",
-    "sub": "a letter for our family",
+    "sub": "a letter for our family and friends",
     "p1": "Dear family, with so much joy we share with you everything you'll need to be with us on one of the most important days of our lives.",
     "p2": "We know what it means to cross continents, request days off, and move heaven and earth to make it to Trieste. Every one of you is making an enormous effort — and we want you to know: we see it, we treasure it, and it moves us deeply.",
     "p3": "The only thing we truly need on that day is to have you near. Your presence, your laughter, the stories shared around the table — that's the most beautiful gift we could ever ask for.",
     "p4": "And to our parents, in particular — endless thanks for your unconditional support, every single day and at every step of the way.",
-    "p5": "First of all, a thousand thanks to those of you who have already confirmed. To those who haven't yet, please let us know as soon as you can so we can organise every detail with care.",
+    "p5": "First of all, a thousand thanks to those of you who have already confirmed your attendance. To those who haven't yet, please let us know as soon as you can so we can organise every detail with care.",
     "p6": "Thank you for being there — before, during, and after. We'll be waiting for you in Italy with our hearts wide open."
   },
   "travel": {
@@ -78,7 +84,7 @@
       "mapLabel": "Location",
       "siteLabel": "Hotel website"
     },
-    "p2": "We recommend staying **at least 2 nights** — the 18th and 19th of October — so you can enjoy the wedding day and the day after without any rush.",
+    "p2": "**As a small courtesy to each of you, we'll be taking care of your stay for the nights of October 18th (the day before) and 19th (the wedding day).** Please enjoy the celebration without any rush or worry — it's our way of saying thank you for making this trip to be with us.",
     "callout": "Please let us know **how many rooms** you need, and **how many nights with which exact dates**. With that information we'll confirm your booking with the hotel."
   },
   "bigDay": {
@@ -88,6 +94,12 @@
       "title": "Ceremony · San Giusto Cathedral",
       "address": "Piazza della Cattedrale 2, 34121 Trieste",
       "mapLabel": "Open in Google Maps"
+    },
+    "dressCode": {
+      "title": "Dress code",
+      "p1": "Comfort first. Wear whatever makes you feel **good and at ease** — the most important thing is that you're with us.",
+      "p2": "Since the ceremony is in a cathedral, please dress with a touch of tradition — **shoulders covered**, please.",
+      "p3": "Afterwards the party is at a seaside resort, so dress for a long, happy day."
     },
     "schedule": [
       { "time": "14:30", "event": "Transport leaves the hotel for the church" },
@@ -104,7 +116,7 @@
   "dayBefore": {
     "title": "The day before",
     "sub": "sunday · october 18",
-    "p1": "In the afternoon we want to **eat pizza in central Trieste**, or maybe **head to the seaside for drinks and fresh fish** — whatever feels right that day. The plan is to be spontaneous and flexible — anyone who wants to join us is more than welcome!"
+    "p1": "In the afternoon we want to **eat pizza in central Trieste**, or maybe **head to the seaside for drinks and fresh seafood** — whatever feels right that day. The plan is to be spontaneous and flexible — anyone who wants to join us is more than welcome!"
   },
   "rsvp": {
     "title": "RSVP",

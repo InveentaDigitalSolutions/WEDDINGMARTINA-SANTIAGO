@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-export type IconName = 'plane' | 'hotel' | 'church' | 'leaf' | 'pin' | 'map' | 'train';
+export type IconName = 'plane' | 'hotel' | 'church' | 'leaf' | 'pin' | 'map' | 'train' | 'star';
 
 const PATHS: Record<IconName, ReactNode> = {
   // Paper plane — used for airport / travel
@@ -67,6 +67,10 @@ const PATHS: Record<IconName, ReactNode> = {
       <line x1="16" y1="17" x2="18" y2="20" />
       <line x1="3" y1="20" x2="21" y2="20" />
     </>
+  ),
+  // 5-pointed star — used for dress code (feel good)
+  star: (
+    <path d="M12 2.5 L14.6 9.4 L21.8 9.7 L16.1 14.1 L18.1 21 L12 17.1 L5.9 21 L7.9 14.1 L2.2 9.7 L9.4 9.4 Z" />
   ),
 };
 

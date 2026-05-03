@@ -13,6 +13,7 @@ import {
   Footer,
 } from './components/Sections';
 import { Places } from './components/Places';
+import { Invite } from './components/Invite';
 import { Gate } from './components/Gate';
 import { Loading } from './components/Loading';
 
@@ -54,6 +55,14 @@ function PlacesPage() {
   );
 }
 
+function InvitePage() {
+  return (
+    <>
+      <Invite />
+    </>
+  );
+}
+
 export default function App() {
   return (
     <Loading>
@@ -64,6 +73,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/places" element={<PlacesPage />} />
+            <Route path="/invite" element={<InvitePage />} />
           </Routes>
           <Footer />
         </BrowserRouter>

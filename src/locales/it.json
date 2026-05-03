@@ -5,8 +5,14 @@
     "venue": "Soggiorno",
     "travel": "Viaggio",
     "thingsToDo": "Luoghi",
+    "invite": "Invito",
     "rsvp": "Conferma",
     "menu": "Menu"
+  },
+  "invite": {
+    "title": "Il nostro invito",
+    "sub": "la lettera che avete ricevuto",
+    "intro": "Tornate qui ogni volta che volete per rivedere l'invito originale — toccate un'immagine per vederla a tutto schermo."
   },
   "gate": {
     "sub": "Invito privato",
@@ -27,12 +33,12 @@
   },
   "greeting": {
     "title": "Benvenuti",
-    "sub": "una lettera per la nostra famiglia",
+    "sub": "una lettera per la nostra famiglia e i nostri amici",
     "p1": "Cara famiglia, con grandissima gioia vi condividiamo tutte le informazioni per accompagnarci in uno dei giorni più importanti della nostra vita.",
     "p2": "Sappiamo cosa significhi attraversare continenti, chiedere giorni di ferie e muovere mari e monti per arrivare fino a Trieste. Ognuno di voi sta facendo uno sforzo enorme — e vogliamo che lo sappiate: lo notiamo, lo apprezziamo e ci commuove profondamente.",
     "p3": "L'unica cosa di cui abbiamo davvero bisogno quel giorno è avervi vicino. La vostra presenza, le vostre risate, le storie condivise a tavola: è il regalo più bello che potessimo chiedere.",
     "p4": "E ai nostri genitori, in particolare — grazie infinite per il vostro sostegno incondizionato, ogni giorno e in ogni passo del cammino.",
-    "p5": "Innanzitutto, mille grazie a chi ci ha già confermato. A chi non l'ha ancora fatto, vi chiediamo gentilmente di farcelo sapere al più presto, così possiamo organizzare ogni dettaglio con cura.",
+    "p5": "Innanzitutto, mille grazie a chi ci ha già confermato la propria presenza. A chi non l'ha ancora fatto, vi chiediamo gentilmente di farcelo sapere al più presto, così possiamo organizzare ogni dettaglio con cura.",
     "p6": "Grazie di esserci — da prima, durante e dopo. Vi aspettiamo in Italia a cuore aperto."
   },
   "travel": {
@@ -78,7 +84,7 @@
       "mapLabel": "Posizione",
       "siteLabel": "Sito dell'hotel"
     },
-    "p2": "Consigliamo di fermarvi **almeno 2 notti** — quella del 18 e quella del 19 ottobre — per godervi senza fretta il giorno del matrimonio e quello dopo.",
+    "p2": "**Come piccola cortesia per ognuno di voi, ci occupiamo noi del vostro pernottamento per le notti del 18 (il giorno prima) e del 19 ottobre (il giorno del matrimonio).** Godetevi la celebrazione senza fretta né pensieri — è il nostro modo di ringraziarvi per aver fatto questo viaggio per essere con noi.",
     "callout": "Per favore, indicateci **quante camere** vi servono e **quante notti con quali date esatte**. Con queste informazioni confermiamo le prenotazioni con l'hotel."
   },
   "bigDay": {
@@ -88,6 +94,12 @@
       "title": "Cerimonia · Cattedrale di San Giusto",
       "address": "Piazza della Cattedrale 2, 34121 Trieste",
       "mapLabel": "Apri su Google Maps"
+    },
+    "dressCode": {
+      "title": "Dress code",
+      "p1": "Comodità prima di tutto. Indossate quello che vi fa sentire **bene e a vostro agio** — la cosa più importante è che ci siate.",
+      "p2": "Poiché la cerimonia è in una cattedrale, vi chiediamo un abbigliamento rispettoso della tradizione — **spalle coperte**, per favore.",
+      "p3": "Poi la festa è in un resort sul mare, quindi vestitevi per una lunga giornata di festa."
     },
     "schedule": [
       { "time": "14:30", "event": "Partenza del trasporto dall'hotel verso la chiesa" },
@@ -104,7 +116,7 @@
   "dayBefore": {
     "title": "Il giorno prima",
     "sub": "domenica · 18 ottobre",
-    "p1": "Nel pomeriggio vorremmo andare a **mangiare la pizza nel centro di Trieste**, oppure **andare in riva al mare a bere e mangiare pesce** — quello che ci verrà voglia in quel momento. L'idea è essere spontanei e flessibili con gli orari; chi della famiglia vuole unirsi è più che benvenuto!"
+    "p1": "Nel pomeriggio vorremmo andare a **mangiare la pizza nel centro di Trieste**, oppure **andare in riva al mare a bere e mangiare pesce e frutti di mare** — quello che ci verrà voglia in quel momento. L'idea è essere spontanei e flessibili con gli orari; chi della famiglia vuole unirsi è più che benvenuto!"
   },
   "rsvp": {
     "title": "Conferma di partecipazione",

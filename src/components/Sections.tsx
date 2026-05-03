@@ -34,6 +34,9 @@ export function Greeting() {
         <p>{t('greeting.p3')}</p>
         <p className="greeting-parents">{t('greeting.p4')}</p>
         <p>{t('greeting.p5')}</p>
+        <figure className="couple-photo">
+          <img src={asset('photos/couple.jpg')} alt="Martina & Santiago" />
+        </figure>
         <p className="greeting-signoff">{t('greeting.p6')}</p>
       </Reveal>
     </section>
@@ -87,6 +90,15 @@ export function Schedule() {
                   <span>{t('bigDay.ceremony.mapLabel')}</span>
                 </a>
               </div>
+            </div>
+            <div className="card">
+              <div className="card-title">
+                <Icon name="star" />
+                <span>{t('bigDay.dressCode.title')}</span>
+              </div>
+              <div className="meta"><RichText text={t('bigDay.dressCode.p1')} /></div>
+              <div className="meta"><RichText text={t('bigDay.dressCode.p2')} /></div>
+              <div className="meta">{t('bigDay.dressCode.p3')}</div>
             </div>
           </div>
         </div>

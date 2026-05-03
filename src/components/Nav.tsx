@@ -39,6 +39,11 @@ export function Nav() {
               {t('nav.thingsToDo')}
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/invite" onClick={close} className={({ isActive }) => (isActive ? 'active' : '')}>
+              {t('nav.invite')}
+            </NavLink>
+          </li>
           <li>{link('rsvp', t('nav.rsvp'))}</li>
         </ul>
 
