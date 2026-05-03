@@ -1,5 +1,6 @@
 import { useState, FormEvent, ReactNode, CSSProperties } from 'react';
 import { useTranslation } from 'react-i18next';
+import { asset } from '../lib/asset';
 
 const STORAGE_KEY = 'wsm-gate';
 const USER = 'trieste';      // case-insensitive
@@ -12,7 +13,7 @@ const LANGS = [
 ];
 
 const gateStyle = {
-  '--gate-image': 'url(/photos/hero.jpg)',
+  '--gate-image': `url(${asset('photos/hero.jpg')})`,
 } as CSSProperties;
 
 type Props = { children: ReactNode };

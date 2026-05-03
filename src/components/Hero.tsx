@@ -1,9 +1,10 @@
 import { useTranslation } from 'react-i18next';
 import { CSSProperties } from 'react';
 import { Countdown } from './Countdown';
+import { asset } from '../lib/asset';
 
 const heroStyle = {
-  '--hero-image': 'url(/photos/hero.jpg)',
+  '--hero-image': `url(${asset('photos/hero.jpg')})`,
 } as CSSProperties;
 
 export function Hero() {

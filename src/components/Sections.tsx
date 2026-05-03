@@ -4,6 +4,7 @@ import { Photo } from './Photo';
 import { Ornament } from './Ornament';
 import { Reveal } from './Reveal';
 import { Icon } from './Icon';
+import { asset } from '../lib/asset';
 
 const MAP_AIRPORT = 'https://www.google.com/maps/place/?q=place_id:ChIJgQu1xE01eUcRmUhimHEy8SM';
 const MAP_HAMPTON = 'https://www.google.com/maps/place/?q=place_id:ChIJvduAx6SxfkcRzpkITw8L1dA';
@@ -201,7 +202,7 @@ export function Lodging() {
   return (
     <>
       <div className="band">
-        <img src="/photos/sistiana.jpg" alt="Bahía de Sistiana" />
+        <img src={asset('photos/sistiana.jpg')} alt="Bahía de Sistiana" />
         <div className="band-caption">
           <div className="script">Sistiana</div>
           <div className="sub">{t('lodging.sub')}</div>
@@ -270,7 +271,7 @@ export function Rsvp() {
   return (
     <>
       <div className="band">
-        <img src="/photos/piazza.jpg" alt="Piazza Unità d'Italia" />
+        <img src={asset('photos/piazza.jpg')} alt="Piazza Unità d'Italia" />
         <div className="band-caption">
           <div className="script">RSVP</div>
           <div className="sub">{t('rsvp.sub')}</div>

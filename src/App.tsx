@@ -58,7 +58,7 @@ export default function App() {
   return (
     <Loading>
       <Gate>
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
           <ScrollManager />
           <Nav />
           <Routes>
