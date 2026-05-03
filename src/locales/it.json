@@ -55,8 +55,15 @@
       "title": "Trasporti",
       "sub": "il giorno del matrimonio e da venezia",
       "p1": "Per il **giorno del matrimonio** abbiamo organizzato un trasporto **andata e ritorno** tra l'hotel e la Cattedrale di San Giusto, così non dovrete preoccuparvi di nulla quel pomeriggio.",
-      "p2": "Da Venezia è possibile raggiungere Trieste anche in **treno** — il viaggio dura circa due ore e i treni sono frequenti. Dalla stazione centrale di Trieste, un **taxi fino al resort impiega circa 20 minuti e costa tra 40 e 60 €**.",
-      "callout": "Se avete domande sui trasferimenti o vi serve aiuto per coordinarvi, fatecelo sapere."
+      "p2intro": "**Con i mezzi pubblici da Venezia**, il viaggio è di circa 3 ore in totale e si fa in tre tappe:",
+      "steps": [
+        "**Bus** dall'Aeroporto Marco Polo alla **stazione di Venezia Mestre** (~25 minuti, ~10 € a persona).",
+        "**Treno** da Mestre a **Trieste Centrale** (~2 ore, partenze frequenti, **15–30 € a persona**).",
+        "**Taxi** dalla stazione di Trieste Centrale al resort (~20 minuti, **40–60 €**)."
+      ],
+      "mapsLabel": "Vedi il percorso completo su Google Maps",
+      "byCar": "**Oppure, potete noleggiare un'auto** all'aeroporto di Venezia. Sono circa 2 ore dirette fino a Portopiccolo e vi danno la libertà di muovervi nei dintorni.",
+      "callout": "Sì — sappiamo che arrivare da noi è già un piccolo viaggio in sé. *Grazie in anticipo per lo sforzo.* Per qualsiasi domanda sui trasferimenti, scriveteci quando volete."
     }
   },
   "lodging": {

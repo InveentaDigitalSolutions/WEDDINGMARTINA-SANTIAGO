@@ -11,6 +11,8 @@ const HAMPTON_BOOK = 'https://www.hilton.com/en/hotels/vcetnhx-hampton-venice-is
 const MAP_TIVOLI = 'https://www.google.com/maps/place/?q=place_id:ChIJnS3k1qYNe0cRJHM9HZC-lKE';
 const TIVOLI_SITE = 'https://www.tivolihotels.com/en/tivoli-portopiccolo-sistiana';
 const MAP_CATHEDRAL = 'https://www.google.com/maps/place/?q=place_id:ChIJHz5rYnRre0cRLw1tzldSVUI';
+const MAP_TRANSIT_VENICE_TRIESTE =
+  'https://www.google.com/maps/dir/?api=1&origin=Venice+Marco+Polo+Airport&destination=Trieste+Centrale&travelmode=transit';
 
 const PHONE_HN = '+504 9612 3277';
 const PHONE_DE = '+49 176 6144 4048';
@@ -155,11 +157,29 @@ export function Travel() {
         <h2 className="section-title">{t('travel.transport.title')}</h2>
         <p className="section-sub">{t('travel.transport.sub')}</p>
 
-        <p style={{ maxWidth: 720, margin: '1.5rem auto 1rem', textAlign: 'center' }}>
+        <p style={{ maxWidth: 720, margin: '1.5rem auto 0', textAlign: 'center' }}>
           <RichText text={t('travel.transport.p1')} />
         </p>
+
+        <p style={{ maxWidth: 720, margin: '2rem auto 0', textAlign: 'center' }}>
+          <RichText text={t('travel.transport.p2intro')} />
+        </p>
+
+        <ol className="transit-steps">
+          {(t('travel.transport.steps', { returnObjects: true }) as string[]).map((step, i) => (
+            <li key={i}><RichText text={step} /></li>
+          ))}
+        </ol>
+
+        <p style={{ textAlign: 'center', margin: '0 auto 2rem' }}>
+          <a href={MAP_TRANSIT_VENICE_TRIESTE} target="_blank" rel="noreferrer" className="link-icon">
+            <Icon name="map" size={14} />
+            <span>{t('travel.transport.mapsLabel')}</span>
+          </a>
+        </p>
+
         <p style={{ maxWidth: 720, margin: '0 auto', textAlign: 'center' }}>
-          <RichText text={t('travel.transport.p2')} />
+          <RichText text={t('travel.transport.byCar')} />
         </p>
 
         <div className="callout">

@@ -418,6 +418,44 @@ section.tinted .card { background: rgba(255,255,255,0.55); }
 }
 .callout strong { color: var(--ink); font-weight: 600; }
 
+/* === Transit steps (numbered list) === */
+.transit-steps {
+  list-style: none;
+  counter-reset: transit;
+  padding: 0;
+  margin: 1.6rem auto;
+  max-width: 700px;
+}
+.transit-steps li {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  padding: 1rem 0.4rem;
+  border-bottom: 1px dashed var(--rule);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+.transit-steps li:last-child { border-bottom: 0; }
+.transit-steps li::before {
+  counter-increment: transit;
+  content: counter(transit);
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--terracotta);
+  color: var(--terracotta);
+  border-radius: 50%;
+  font-style: italic;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 0.05rem;
+}
+.transit-steps strong { color: var(--ink); font-weight: 600; }
+
 /* === Schedule === */
 .timeline {
   list-style: none;

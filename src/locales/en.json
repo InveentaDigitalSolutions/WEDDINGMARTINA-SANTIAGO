@@ -55,8 +55,15 @@
       "title": "Transport",
       "sub": "the wedding day & getting from venice",
       "p1": "For the **wedding day** we've arranged **round-trip transport** between the hotel and San Giusto Cathedral, so you don't have to worry about anything that afternoon.",
-      "p2": "From Venice you can also reach Trieste by **train** — the journey is about two hours and trains run frequently. From Trieste's main station, a **taxi to the resort takes about 20 minutes and costs €40–60**.",
-      "callout": "If you have any questions about transfers or need help coordinating, just let us know."
+      "p2intro": "**By public transport from Venice**, the trip is roughly 3 hours total and happens in three legs:",
+      "steps": [
+        "**Bus** from Marco Polo Airport to **Venezia Mestre station** (~25 minutes, ~€10 per person).",
+        "**Train** from Mestre to **Trieste Centrale** (~2 hours, frequent departures, **€15–30 per person**).",
+        "**Taxi** from Trieste Centrale to the resort (~20 minutes, **€40–60**)."
+      ],
+      "mapsLabel": "See the full route on Google Maps",
+      "byCar": "**Or, you can rent a car** at Venice Airport. It's about 2 hours direct to Portopiccolo and gives you freedom to explore the area.",
+      "callout": "Yes — we know getting to us is a small adventure on its own. *Thank you in advance for making the trip.* Any questions about transfers, just write to us anytime."
     }
   },
   "lodging": {
