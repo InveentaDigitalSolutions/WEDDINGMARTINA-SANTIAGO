@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Home",
+    "schedule": "Programma",
+    "venue": "Soggiorno",
+    "travel": "Viaggio",
+    "thingsToDo": "Luoghi",
+    "rsvp": "Conferma",
+    "menu": "Menu"
+  },
+  "gate": {
+    "sub": "Invito privato",
+    "userLabel": "Utente",
+    "passwordLabel": "Password",
+    "submit": "Entra",
+    "error": "Dati errati · riprova",
+    "help": "Non hai il codice? Scrivici su WhatsApp."
+  },
+  "countdown": {
+    "label_one": "giorno al nostro giorno",
+    "label_other": "giorni al nostro giorno",
+    "today": "È oggi!"
+  },
+  "hero": {
+    "date": "19 ottobre 2026",
+    "place": "Trieste · Italia"
+  },
+  "greeting": {
+    "title": "Benvenuti",
+    "sub": "una lettera per la nostra famiglia",
+    "p1": "Cara famiglia, con grandissima gioia vi condividiamo tutte le informazioni per accompagnarci in uno dei giorni più importanti della nostra vita.",
+    "p2": "Sappiamo cosa significhi attraversare continenti, chiedere giorni di ferie e muovere mari e monti per arrivare fino a Trieste. Ognuno di voi sta facendo uno sforzo enorme — e vogliamo che lo sappiate: lo notiamo, lo apprezziamo e ci commuove profondamente.",
+    "p3": "L'unica cosa di cui abbiamo davvero bisogno quel giorno è avervi vicino. La vostra presenza, le vostre risate, le storie condivise a tavola: è il regalo più bello che potessimo chiedere.",
+    "p4": "Innanzitutto, mille grazie a chi ci ha già confermato. A chi non l'ha ancora fatto, vi chiediamo gentilmente di farcelo sapere al più presto, così possiamo organizzare ogni dettaglio con cura.",
+    "p5": "Grazie di esserci — da prima, durante e dopo. Vi aspettiamo in Italia a cuore aperto."
+  },
+  "travel": {
+    "title": "Il viaggio",
+    "sub": "come arrivare a trieste",
+    "p1": "Consigliamo di volare all'**Aeroporto Marco Polo di Venezia**. Da Venezia a Trieste sono circa **2 ore in macchina**.",
+    "airport": {
+      "title": "Aeroporto Marco Polo · Venezia",
+      "address": "Viale Galileo Galilei 30, 30173 Venezia",
+      "mapLabel": "Apri su Google Maps"
+    },
+    "p2": "Il nostro consiglio è fermarsi **1 o 2 notti a Venezia** prima di proseguire per Trieste. Ottobre è bassa stagione, quindi potete godervi la città molto meglio che in altri periodi — e arrivate riposati al matrimonio.",
+    "hotelVenice": {
+      "title": "Hotel consigliato a Venezia",
+      "name": "Hampton by Hilton Venice Isola Nuova",
+      "note": "A 2 minuti a piedi dal taxi acqueo che vi porta in centro.",
+      "mapLabel": "Posizione",
+      "bookLabel": "Prenota"
+    },
+    "transport": {
+      "title": "Trasporti",
+      "sub": "il giorno del matrimonio e da venezia",
+      "p1": "Per il **giorno del matrimonio** abbiamo organizzato un trasporto **andata e ritorno** tra l'hotel e la Cattedrale di San Giusto, così non dovrete preoccuparvi di nulla quel pomeriggio.",
+      "p2": "Da Venezia è possibile raggiungere Trieste anche in **treno** — il viaggio dura circa due ore e i treni sono frequenti. Dalla stazione centrale di Trieste, un **taxi fino al resort impiega circa 20 minuti e costa tra 40 e 60 €**.",
+      "callout": "Se avete domande sui trasferimenti o vi serve aiuto per coordinarvi, fatecelo sapere."
+    }
+  },
+  "lodging": {
+    "title": "Dove dormire",
+    "sub": "dove staremo tutti",
+    "p1": "Abbiamo riservato l'**hotel intero** per avere tutte le camere a disposizione della famiglia. Il ricevimento e la festa sono *nello stesso resort*, quindi è di gran lunga la soluzione più comoda per tutti.",
+    "resort": {
+      "title": "Tivoli Portopiccolo Sistiana Wellness Resort & Spa",
+      "address": "Strada di Portopiccolo 231/M, 34011 Sistiana TS",
+      "mapLabel": "Posizione",
+      "siteLabel": "Sito dell'hotel"
+    },
+    "p2": "Consigliamo di fermarvi **almeno 2 notti** — quella del 18 e quella del 19 ottobre — per godervi senza fretta il giorno del matrimonio e quello dopo.",
+    "callout": "Per favore, indicateci **quante camere** vi servono e **quante notti con quali date esatte**. Con queste informazioni confermiamo le prenotazioni con l'hotel."
+  },
+  "bigDay": {
+    "title": "Il gran giorno",
+    "sub": "lunedì · 19 ottobre 2026",
+    "ceremony": {
+      "title": "Cerimonia · Cattedrale di San Giusto",
+      "address": "Piazza della Cattedrale 2, 34121 Trieste",
+      "mapLabel": "Apri su Google Maps"
+    },
+    "schedule": [
+      { "time": "14:30", "event": "Partenza del trasporto dall'hotel verso la chiesa" },
+      { "time": "15:30", "event": "Cerimonia nella Cattedrale di San Giusto" },
+      { "time": "18:30", "event": "Partenza del trasporto dalla chiesa verso il resort" },
+      { "time": "19:00", "event": "Ricevimento e cocktail al Tivoli Portopiccolo" },
+      { "time": "20:00", "event": "Cena" },
+      { "time": "21:30", "event": "Primo ballo" },
+      { "time": "23:00", "event": "Snack di mezzanotte" },
+      { "time": "··", "event": "Open end" }
+    ],
+    "note": "* Gli orari del ricevimento sono indicativi — l'idea è godersi la serata senza fretta."
+  },
+  "dayBefore": {
+    "title": "Il giorno prima",
+    "sub": "domenica · 18 ottobre",
+    "p1": "Nel pomeriggio vorremmo andare a **mangiare la pizza nel centro di Trieste**, oppure **andare in riva al mare a bere e mangiare pesce** — quello che ci verrà voglia in quel momento. L'idea è essere spontanei e flessibili con gli orari; chi della famiglia vuole unirsi è più che benvenuto!"
+  },
+  "rsvp": {
+    "title": "Conferma di partecipazione",
+    "sub": "non vediamo l'ora di sentirvi",
+    "intro": "Potete confermare via WhatsApp o telefonata a uno di questi numeri:",
+    "label": "Conferma di partecipazione"
+  },
+  "footer": {
+    "signoff": "Con tutto il nostro affetto,",
+    "names": "Martina & Santiago"
+  },
+  "places": {
+    "title": "Da vedere",
+    "sub": "cosa visitare nei dintorni di trieste",
+    "aboutTrieste": "Trieste è una città di confini: italiana, austro-ungarica e slovena allo stesso tempo. Affacciata sull'Adriatico e circondata da colline calcaree, ha palazzi neoclassici, caffè letterari e tramonti che ti restano dentro. È una città da camminare senza fretta, con un Aperol in mano.",
+    "intro": "Se avete tempo prima o dopo il matrimonio, ecco alcuni dei nostri posti preferiti — tutti meritano una visita.",
+    "items": {
+      "miramare": {
+        "name": "Castello di Miramare",
+        "eyebrow": "imperdibile",
+        "p1": "Il castello bianco più romantico d'Italia, costruito dall'arciduca Massimiliano d'Asburgo nell'Ottocento, affacciato sul mare Adriatico.",
+        "p2": "I giardini sono enormi e gratuiti, perfetti per una passeggiata. È a soli 15 minuti dall'hotel."
+      },
+      "trieste": {
+        "name": "Piazza Unità d'Italia",
+        "eyebrow": "la piazza sul mare",
+        "p1": "La più grande piazza d'Europa aperta sul mare, incorniciata da palazzi del Sette e Ottocento e dominata dal maestoso Palazzo del Municipio.",
+        "p2": "Un tramonto qui, con un Aperol in mano, è uno di quei momenti che non si dimenticano."
+      },
+      "sangiusto": {
+        "name": "Castello di San Giusto",
+        "eyebrow": "vista panoramica",
+        "p1": "Proprio accanto alla cattedrale dove ci sposiamo. Salire sulle mura regala la vista più bella di tutta la città e del golfo."
+      },
+      "sistiana": {
+        "name": "Baia di Sistiana",
+        "eyebrow": "a due passi dall'hotel",
+        "p1": "L'hotel si trova letteralmente su questa baia. Il lungomare di Portopiccolo è bellissimo al tramonto; ci sono ristoranti di pesce fresco e bar con vista mare."
+      },
+      "venice": {
+        "name": "Venezia",
+        "eyebrow": "giornata intera",
+        "p1": "A 2 ore di macchina o di treno. A ottobre, senza la folla estiva, è la versione migliore della città. Consigliamo una o due notti prima o dopo il matrimonio."
+      },
+      "canal": {
+        "name": "Canal Grande",
+        "eyebrow": "il cuore del centro",
+        "p1": "Un canale del Settecento circondato da palazzi neoclassici, barche ormeggiate lungo le rive e la chiesa di Sant'Antonio Nuovo che chiude la prospettiva sul fondo.",
+        "p2": "Al tramonto la luce dorata si riflette sull'acqua — uno degli angoli più fotogenici di Trieste."
+      },
+      "molo": {
+        "name": "Molo Audace",
+        "eyebrow": "tramonti sul mare",
+        "p1": "Un molo di pietra del Settecento che si protende sull'Adriatico. Camminare fino in fondo al tramonto, con la città alle spalle e il mare aperto davanti, è un'esperienza imperdibile."
+      },
+      "faro": {
+        "name": "Faro della Vittoria",
+        "eyebrow": "vista panoramica",
+        "p1": "Un faro-monumento di 70 metri, completato nel 1927, dedicato ai marinai caduti. Si può salire fino in cima per una vista a 360° sulla città e sul golfo."
+      },
+      "caffe": {
+        "name": "Caffè storici",
+        "eyebrow": "cultura del caffè",
+        "p1": "Trieste è la capitale italiana del caffè (sede di Illy e Hausbrandt). Sedersi al Caffè degli Specchi in Piazza Unità o al Caffè San Marco — dove scrivevano Joyce e Svevo — è un rituale d'obbligo."
+      },
+      "grotta": {
+        "name": "Grotta Gigante",
+        "eyebrow": "per i curiosi",
+        "p1": "Una delle grotte turistiche più grandi al mondo, a 20 minuti da Trieste. Se vi piacciono le avventure sotterranee, vale la deviazione."
+      }
+    }
+  }
+}

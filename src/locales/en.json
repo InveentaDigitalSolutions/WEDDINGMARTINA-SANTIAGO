@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "home": "Home",
+    "schedule": "Schedule",
+    "venue": "Stay",
+    "travel": "Travel",
+    "thingsToDo": "Places",
+    "rsvp": "RSVP",
+    "menu": "Menu"
+  },
+  "gate": {
+    "sub": "Private invitation",
+    "userLabel": "User",
+    "passwordLabel": "Password",
+    "submit": "Enter",
+    "error": "Incorrect details · please try again",
+    "help": "Don't have your code? Reach us on WhatsApp."
+  },
+  "countdown": {
+    "label_one": "day until our day",
+    "label_other": "days until our day",
+    "today": "It's today!"
+  },
+  "hero": {
+    "date": "October 19, 2026",
+    "place": "Trieste · Italy"
+  },
+  "greeting": {
+    "title": "Welcome",
+    "sub": "a letter for our family",
+    "p1": "Dear family, with so much joy we share with you everything you'll need to be with us on one of the most important days of our lives.",
+    "p2": "We know what it means to cross continents, request days off, and move heaven and earth to make it to Trieste. Every one of you is making an enormous effort — and we want you to know: we see it, we treasure it, and it moves us deeply.",
+    "p3": "The only thing we truly need on that day is to have you near. Your presence, your laughter, the stories shared around the table — that's the most beautiful gift we could ever ask for.",
+    "p4": "First of all, a thousand thanks to those of you who have already confirmed. To those who haven't yet, please let us know as soon as you can so we can organise every detail with care.",
+    "p5": "Thank you for being there — before, during, and after. We'll be waiting for you in Italy with our hearts wide open."
+  },
+  "travel": {
+    "title": "The journey",
+    "sub": "how to get to trieste",
+    "p1": "We recommend flying into **Venice Marco Polo Airport**. From Venice to Trieste it's roughly **2 hours by car**.",
+    "airport": {
+      "title": "Marco Polo Airport · Venice",
+      "address": "Viale Galileo Galilei 30, 30173 Venezia",
+      "mapLabel": "Open in Google Maps"
+    },
+    "p2": "Our suggestion is to spend **1 or 2 nights in Venice** before continuing on to Trieste. October is low season, so you'll get the city at its best — and arrive rested for the wedding.",
+    "hotelVenice": {
+      "title": "Recommended hotel in Venice",
+      "name": "Hampton by Hilton Venice Isola Nuova",
+      "note": "A 2-minute walk from the water taxi that takes you to the historic centre.",
+      "mapLabel": "Location",
+      "bookLabel": "Book"
+    },
+    "transport": {
+      "title": "Transport",
+      "sub": "the wedding day & getting from venice",
+      "p1": "For the **wedding day** we've arranged **round-trip transport** between the hotel and San Giusto Cathedral, so you don't have to worry about anything that afternoon.",
+      "p2": "From Venice you can also reach Trieste by **train** — the journey is about two hours and trains run frequently. From Trieste's main station, a **taxi to the resort takes about 20 minutes and costs €40–60**.",
+      "callout": "If you have any questions about transfers or need help coordinating, just let us know."
+    }
+  },
+  "lodging": {
+    "title": "Where to stay",
+    "sub": "where we'll all be staying",
+    "p1": "We've reserved the **whole hotel** so every room is available for the family. The reception and party are *at the same resort* — by far the most comfortable option for everyone.",
+    "resort": {
+      "title": "Tivoli Portopiccolo Sistiana Wellness Resort & Spa",
+      "address": "Strada di Portopiccolo 231/M, 34011 Sistiana TS",
+      "mapLabel": "Location",
+      "siteLabel": "Hotel website"
+    },
+    "p2": "We recommend staying **at least 2 nights** — the 18th and 19th of October — so you can enjoy the wedding day and the day after without any rush.",
+    "callout": "Please let us know **how many rooms** you need, and **how many nights with which exact dates**. With that information we'll confirm your booking with the hotel."
+  },
+  "bigDay": {
+    "title": "The big day",
+    "sub": "monday · october 19, 2026",
+    "ceremony": {
+      "title": "Ceremony · San Giusto Cathedral",
+      "address": "Piazza della Cattedrale 2, 34121 Trieste",
+      "mapLabel": "Open in Google Maps"
+    },
+    "schedule": [
+      { "time": "14:30", "event": "Transport leaves the hotel for the church" },
+      { "time": "15:30", "event": "Ceremony at San Giusto Cathedral" },
+      { "time": "18:30", "event": "Transport leaves the church for the resort" },
+      { "time": "19:00", "event": "Reception and cocktail at Tivoli Portopiccolo" },
+      { "time": "20:00", "event": "Dinner" },
+      { "time": "21:30", "event": "First dance" },
+      { "time": "23:00", "event": "Midnight snack" },
+      { "time": "··", "event": "Open end" }
+    ],
+    "note": "* Reception times are approximate — the idea is to enjoy without rushing."
+  },
+  "dayBefore": {
+    "title": "The day before",
+    "sub": "sunday · october 18",
+    "p1": "In the afternoon we want to **eat pizza in central Trieste**, or maybe **head to the seaside for drinks and fresh fish** — whatever feels right that day. The plan is to be spontaneous and flexible — anyone who wants to join us is more than welcome!"
+  },
+  "rsvp": {
+    "title": "RSVP",
+    "sub": "we'd love to hear from you",
+    "intro": "You can confirm by WhatsApp or call at either of these numbers:",
+    "label": "Confirm attendance"
+  },
+  "footer": {
+    "signoff": "With all our love,",
+    "names": "Martina & Santiago"
+  },
+  "places": {
+    "title": "Things to do",
+    "sub": "what to see around trieste",
+    "aboutTrieste": "Trieste is a city of borders: at once Italian, Austro-Hungarian and Slovenian. Perched on the Adriatic and ringed by limestone hills, it has neoclassical palaces, literary cafés, and sunsets that stay with you. It's a city to walk slowly, with an Aperol in hand.",
+    "intro": "If you have extra time before or after the wedding, here are a few of our favourite places — all worth a visit.",
+    "items": {
+      "miramare": {
+        "name": "Miramare Castle",
+        "eyebrow": "the must-see",
+        "p1": "The most romantic white castle in Italy, built by Archduke Maximilian of Habsburg in the 19th century, perched right above the Adriatic Sea.",
+        "p2": "The gardens are huge and free to enter — perfect for a slow walk. Just 15 minutes from the hotel."
+      },
+      "trieste": {
+        "name": "Piazza Unità d'Italia",
+        "eyebrow": "the square on the sea",
+        "p1": "The largest sea-facing square in Europe, framed by 18th- and 19th-century palaces and dominated by the majestic City Hall.",
+        "p2": "Sunset here, an Aperol in hand, is one of those moments you don't forget."
+      },
+      "sangiusto": {
+        "name": "San Giusto Castle",
+        "eyebrow": "panoramic view",
+        "p1": "Right next to the cathedral where we're getting married. Climb up to the walls for the best view of the whole city and the gulf."
+      },
+      "sistiana": {
+        "name": "Sistiana Bay",
+        "eyebrow": "steps from the hotel",
+        "p1": "The hotel sits literally on this bay. The Portopiccolo seafront is gorgeous at dusk — there are fresh-fish restaurants and bars right by the water."
+      },
+      "venice": {
+        "name": "Venice",
+        "eyebrow": "full day",
+        "p1": "Two hours by car or train. In October, free of summer crowds, you get the very best of the city. We recommend a night or two before or after the wedding."
+      },
+      "canal": {
+        "name": "Canal Grande",
+        "eyebrow": "the heart of the centre",
+        "p1": "An 18th-century canal lined with neoclassical palaces, boats moored along the quay, and the church of Sant'Antonio Nuovo closing the perspective at the far end.",
+        "p2": "At sunset the golden light reflects on the water — one of the most photogenic corners of Trieste."
+      },
+      "molo": {
+        "name": "Molo Audace",
+        "eyebrow": "sunsets over the sea",
+        "p1": "An 18th-century stone pier reaching out into the Adriatic. Walking to the very end at sunset, the city behind you and the open sea ahead, is an absolute must-do."
+      },
+      "faro": {
+        "name": "Faro della Vittoria",
+        "eyebrow": "panoramic view",
+        "p1": "A 70-metre lighthouse-monument completed in 1927, dedicated to fallen sailors. Climb to the top for a 360° view over the city and the gulf."
+      },
+      "caffe": {
+        "name": "Historic cafés",
+        "eyebrow": "coffee culture",
+        "p1": "Trieste is Italy's coffee capital (home to Illy and Hausbrandt). Sitting at Caffè degli Specchi on Piazza Unità, or at Caffè San Marco — where Joyce and Svevo wrote — is an essential ritual."
+      },
+      "grotta": {
+        "name": "Grotta Gigante",
+        "eyebrow": "for the curious",
+        "p1": "One of the largest tourist caves in the world, 20 minutes from Trieste. If you love an underground adventure, it's worth the detour."
+      }
+    }
+  }
+}
