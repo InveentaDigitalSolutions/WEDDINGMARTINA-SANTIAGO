@@ -31,8 +31,9 @@ export function Greeting() {
         <p>{t('greeting.p1')}</p>
         <p>{t('greeting.p2')}</p>
         <p>{t('greeting.p3')}</p>
-        <p>{t('greeting.p4')}</p>
-        <p className="greeting-signoff">{t('greeting.p5')}</p>
+        <p className="greeting-parents">{t('greeting.p4')}</p>
+        <p>{t('greeting.p5')}</p>
+        <p className="greeting-signoff">{t('greeting.p6')}</p>
       </Reveal>
     </section>
   );
