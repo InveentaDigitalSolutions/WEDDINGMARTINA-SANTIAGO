@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, MouseEvent } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -8,6 +8,17 @@ const LANGS = [
   { code: 'it', label: 'IT' },
 ];
 
+const NAV_OFFSET = 84;
+
+function smoothScrollTo(hash: string) {
+  const el = document.getElementById(hash);
+  if (!el) return;
+  const top = el.getBoundingClientRect().top + window.scrollY - NAV_OFFSET;
+  window.scrollTo({ top, behavior: 'smooth' });
+  // Update URL hash without firing native browser scroll
+  window.history.replaceState(null, '', `#${hash}`);
+}
+
 export function Nav() {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
@@ -16,9 +27,15 @@ export function Nav() {
 
   const close = () => setOpen(false);
 
+  const handleAnchorClick = (e: MouseEvent<HTMLAnchorElement>, hash: string) => {
+    e.preventDefault();
+    smoothScrollTo(hash);
+    close();
+  };
+
   const link = (hash: string, label: string) =>
     onHome ? (
-      <a href={`#${hash}`} onClick={close}>{label}</a>
+      <a href={`#${hash}`} onClick={(e) => handleAnchorClick(e, hash)}>{label}</a>
     ) : (
       <Link to={`/#${hash}`} onClick={close}>{label}</Link>
     );

@@ -33,6 +33,10 @@ html, body {
   text-rendering: optimizeLegibility;
 }
 
+/* Leave room for the sticky nav when scrolling to anchor links */
+html { scroll-padding-top: 84px; }
+section[id] { scroll-margin-top: 84px; }
+
 body { overflow-x: hidden; }
 img { max-width: 100%; display: block; }
 

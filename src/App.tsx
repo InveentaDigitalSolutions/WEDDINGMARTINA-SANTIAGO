@@ -17,13 +17,19 @@ import { Invite } from './components/Invite';
 import { Gate } from './components/Gate';
 import { Loading } from './components/Loading';
 
+// Sticky nav height + a touch of breathing room
+const NAV_OFFSET = 84;
+
 function ScrollManager() {
   const { pathname, hash } = useLocation();
   useEffect(() => {
     if (hash) {
       const el = document.getElementById(hash.slice(1));
       if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Explicit offset is more reliable on iOS Safari than relying on
+        // scroll-margin-top + scrollIntoView alone.
+        const top = el.getBoundingClientRect().top + window.scrollY - NAV_OFFSET;
+        window.scrollTo({ top, behavior: 'smooth' });
         return;
       }
     }
