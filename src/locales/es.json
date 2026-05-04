@@ -70,14 +70,14 @@
       ],
       "mapsLabel": "Ver la ruta completa en Google Maps",
       "bookTrainLabel": "Reservar el tren en Trenitalia",
-      "byCar": "**O bien, pueden alquilar un coche** en el aeropuerto de Venecia — son unas 2 horas directas hasta Portopiccolo. **El resort incluye estacionamiento**, y tener coche les da libertad para moverse por la zona si quieren explorar.",
+      "byCar": "**O bien, pueden alquilar un vehículo** en el aeropuerto de Venecia — son unas 2 horas directas hasta Portopiccolo. **El resort incluye estacionamiento**, y tener vehículo les da libertad para moverse por la zona si quieren explorar.",
       "callout": "Sí, sabemos que llegar hasta nosotros es un pequeño viaje en sí mismo — *gracias de antemano por el esfuerzo*. Para cualquier duda con los traslados, escríbannos cuando quieran."
     }
   },
   "lodging": {
     "title": "Hospedaje",
     "sub": "donde nos hospedaremos todos",
-    "p1": "Hemos reservado el **hotel entero** para tener todas las habitaciones disponibles para la familia. La recepción y la fiesta son *en el mismo resort*, así que es la opción más cómoda para todos.",
+    "p1": "Hemos reservado el **hotel entero** para que haya habitación para cada uno de ustedes. La recepción y la fiesta son *en el mismo resort*, así que es la opción más cómoda para todos.",
     "resort": {
       "title": "Tivoli Portopiccolo Sistiana Wellness Resort & Spa",
       "address": "Strada di Portopiccolo 231/M, 34011 Sistiana TS",
