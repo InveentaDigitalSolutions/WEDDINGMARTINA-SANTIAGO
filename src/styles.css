@@ -250,8 +250,17 @@ section.tinted { background: var(--paper-warm); }
     opacity: 1;
     pointer-events: auto;
   }
-  .nav-links a { padding: 0.85rem 0; border-bottom: 1px solid var(--rule-soft); width: 100%; }
+  .nav-links a {
+    padding: 1.15rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+    width: 100%;
+    font-size: 0.88rem;
+    letter-spacing: 0.24em;
+  }
   .nav-links a:last-child { border-bottom: 0; }
+  /* On mobile, drop the desktop hover/active underline (dividers + colour are enough) */
+  .nav-links a::after { display: none; }
+  .nav-links a.active { color: var(--terracotta); }
 }
 
 /* === Hero === */
