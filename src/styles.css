@@ -251,16 +251,23 @@ section.tinted { background: var(--paper-warm); }
     pointer-events: auto;
   }
   .nav-links a {
-    padding: 1.15rem 0;
+    padding: 1.6rem 0;
     border-bottom: 1px solid var(--rule-soft);
     width: 100%;
-    font-size: 0.88rem;
-    letter-spacing: 0.24em;
+    font-size: 1rem;
+    letter-spacing: 0.28em;
+    text-align: center;
+    /* iOS tap highlight + clear feedback on tap */
+    -webkit-tap-highlight-color: rgba(184, 98, 63, 0.18);
+    transition: background 0.15s ease, color 0.2s ease;
   }
+  .nav-links a:active { background: rgba(184, 98, 63, 0.08); }
   .nav-links a:last-child { border-bottom: 0; }
   /* On mobile, drop the desktop hover/active underline (dividers + colour are enough) */
   .nav-links a::after { display: none; }
   .nav-links a.active { color: var(--terracotta); }
+  /* Slightly more breathing room around the whole menu */
+  .nav-links { padding: 0.5rem var(--pad) 1.2rem; }
 }
 
 /* === Hero === */
