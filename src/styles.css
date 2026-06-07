@@ -852,10 +852,13 @@ section.tinted .card { background: rgba(255,255,255,0.55); }
 }
 .splash-monogram {
   font-family: var(--font-script);
-  font-size: clamp(3.4rem, 13vw, 7rem);
+  font-size: clamp(2.9rem, 11vw, 7rem);
   line-height: 1;
   color: var(--ink);
   max-width: 100%;
+  /* the script "S" trails a swash past its glyph box; nudge the
+     whole monogram left so that overhang clears the right edge */
+  padding-right: 0.18em;
 }
 .splash-monogram .amp {
   color: var(--terracotta);
